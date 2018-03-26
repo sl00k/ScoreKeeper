@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="teamHome">Home</string>
+    <string name="teamAway">Away</string>
+</resources>
