@@ -25,21 +25,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:padding="4dp"
+                    android:padding="@dimen/team_padding"
                     android:text="@string/teamHome"
-                    android:textSize="25sp" />
+                    android:textSize="@dimen/team_size" />
 
                 <TextView
                     android:id="@+id/team_a_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="@dimen/score_margin_bottom"
+                    android:layout_marginTop="@dimen/score_margin_top"
                     android:gravity="center"
-                    android:padding="4dp"
+                    android:padding="@dimen/score_padding"
                     android:text="0"
                     android:textColor="@color/white"
-                    android:textSize="56dp" />
+                    android:textSize="@dimen/score_size" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -48,10 +48,10 @@
                     android:orientation="horizontal">
 
                     <View
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/card_size"
+                        android:layout_height="@dimen/card_size"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="@dimen/card_margin_left"
                         android:background="@color/red" />
 
 
@@ -60,18 +60,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="@dimen/card_score_margin_left"
                         android:layout_weight="1"
                         android:text="0"
                         android:textColor="@color/white"
-                        android:textSize="25sp"
+                        android:textSize="@dimen/card_score_size"
                         android:textStyle="bold" />
 
                     <View
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/card_size"
+                        android:layout_height="@dimen/card_size"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="@dimen/card_margin_left"
                         android:background="@color/yellow" />
 
                     <TextView
@@ -79,42 +79,34 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="@dimen/card_score_margin_left"
                         android:layout_weight="1"
                         android:text="0"
                         android:textColor="@color/white"
-                        android:textSize="25sp"
+                        android:textSize="@dimen/card_score_size"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addOneForTeamA"
                     android:text="Goal" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addYellowCardTeamA"
                     android:text="Yellow Card" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addRedCardTeamA"
                     android:text="Red Card" />
             </LinearLayout>
 
             <View
-                android:layout_width="2dp"
-                android:layout_height="450dp"
-                android:layout_marginTop="25dp"
+                style="@style/DividingView"
                 android:background="@android:color/darker_gray" />
 
 
@@ -128,21 +120,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:padding="4dp"
+                    android:padding="@dimen/team_padding"
                     android:text="@string/teamAway"
-                    android:textSize="25sp" />
+                    android:textSize="@dimen/team_size" />
 
                 <TextView
                     android:id="@+id/team_b_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="@dimen/score_margin_bottom"
+                    android:layout_marginTop="@dimen/score_margin_top"
                     android:gravity="center"
-                    android:padding="4dp"
+                    android:padding="@dimen/score_padding"
                     android:text="0"
                     android:textColor="@color/white"
-                    android:textSize="56dp" />
+                    android:textSize="@dimen/score_size" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -151,10 +143,10 @@
                     android:orientation="horizontal">
 
                     <View
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/card_size"
+                        android:layout_height="@dimen/card_size"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="@dimen/card_margin_left"
                         android:background="@color/red"></View>
 
 
@@ -163,18 +155,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="@dimen/card_score_margin_left"
                         android:layout_weight="1"
                         android:text="0"
                         android:textColor="@color/white"
-                        android:textSize="25sp"
+                        android:textSize="@dimen/card_score_size"
                         android:textStyle="bold" />
 
                     <View
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/card_size"
+                        android:layout_height="@dimen/card_size"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="@dimen/card_margin_left"
                         android:background="@color/yellow"></View>
 
                     <TextView
@@ -182,34 +174,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="@dimen/card_score_margin_left"
                         android:layout_weight="1"
                         android:text="0"
                         android:textColor="@color/white"
-                        android:textSize="25sp"
+                        android:textSize="@dimen/card_score_size"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addOneForTeamB"
                     android:text="Goal" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addYellowCardTeamB"
                     android:text="Yellow Card" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
+                    style="@style/UserButtons"
                     android:onClick="addRedCardTeamB"
                     android:text="Red Card" />
             </LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="score_size">56sp</dimen>
+    <dimen name="score_padding">4dp</dimen>
+    <dimen name="score_margin_top">16dp</dimen>
+    <dimen name="score_margin_bottom">16dp</dimen>
+    <dimen name="card_size">20dp</dimen>
+    <dimen name="card_score_margin_left">10dp</dimen>
+    <dimen name="card_margin_left">20dp</dimen>
+    <dimen name="card_score_size">25sp</dimen>
+    <dimen name="team_size">26sp</dimen>
+    <dimen name="team_padding">4dp</dimen>
+</resources>
